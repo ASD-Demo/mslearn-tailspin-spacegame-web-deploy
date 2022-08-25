@@ -74,7 +74,7 @@ stages:
       vmImage: 'ubuntu-20.04'
     environment: deployment-demo
     variables:
-    - group: Release
+    - group: Release-demo
     strategy:
       runOnce:
         deploy:
