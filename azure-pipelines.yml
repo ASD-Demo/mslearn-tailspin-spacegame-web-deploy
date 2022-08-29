@@ -87,3 +87,9 @@ stages:
               azureSubscription: 'Demo-connection-azure'
               appName: '$(WebAppName)'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
+
+
+# run some test
+# git add azure-pipelines.yml
+# git commit -m "Add a deployment stage to the pipeline"
+# git push origin release-pipeline
